@@ -8,7 +8,7 @@
  */
 
 /* Make sure to import your roster image just like this, as then Astro will optimize the formating of it. */
-import IAN_KOLLIPARA_ROSTER_IMG from "../../assets/roster/co-ian-kollipara.jpg";
+import IMG_0873.jpg from "../../assets/roster/IMG_0873.jpg";
 
 /*
  * These components are used to build your roster page.
@@ -22,17 +22,16 @@ import RosterSection from "../../components/RosterSection.astro";
 import RosterImage from "../../components/RosterImage.astro";
 
 const data = {
-  img: IAN_KOLLIPARA_ROSTER_IMG /* The Profile Picture for your roster page */,
+  img: IMG_0873 /* The Profile Picture for your roster page */,
   name: "Silas Curtis" /* The name you want displayed. Use Capital Letters */,
   role: "Freshman" /* The "role" you have on the team. I would just use your year in school, like Senior, Junior, etc. */,
   email: "silas.curtis@cune.edu" /* Your CUNE Email */,
   /* A List of your Interests. Make sure to write them how you want them to show up */
   interests: [
     "Programming",
-    "Computer Science Education",
-    "Super Smash Bros. Ultimate",
-    "Full Stack Web Development",
-    "Note-taking",
+    "Tennis",
+    "Chemistry",
+    "Movies",
   ],
 };
 ---
@@ -42,11 +41,8 @@ const data = {
   <!-- For any extra sections you would like to add, just create a new "RosterSection" and give it a title, then just write.  -->
   <!-- For any images, use the RosterImage Component imported at the Top. -->
   <RosterSection title="Biography">
-    Ian Kollipara is a CUNE Almuni of 2023. He graduated with a B.S. in Computer
-    Science and B.S. Ed in Elementary Education. He is currently pursuing his
-    PhD at the University of Nebraska, Lincoln. He is also the head of the
-    Software Development side of the Team. His most recent projects include the
-    first version of the Escape Room, the Team Website, and the AIR@NE website
-    done for his PhD.
+    Silas Curtis is in the class of 2027 at CUNE. He currently planning to 
+    major in computer science, with possible minors in math, chemistry, or cybersecurity. 
+    He looks forward to competing for Concordia and working on projects.
   </RosterSection>
 </RosterLayout>
